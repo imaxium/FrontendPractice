@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de min() y max() en CSS</title>
+    <style>
+        /* Establecemos un estilo para el contenedor principal (body) */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .contenedor {
+            width: 400px;
+            height: 300px;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        .mi-elemento {
+            background-color: skyblue;
+            color: white;
+            padding: 10px;
+            /* Utilizamos min() y max() para establecer el ancho y la altura */
+            width: min(100%, 200px);
+            height: max(50%, 150px);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="mi-elemento">
+            Contenido
+        </div>
+    </div>
+</body>
+</html>

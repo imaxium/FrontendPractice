@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    background-color: black;
+    width: 100%;
+    height: 88px;
+    padding: 0 clamp(1vw, 6vw, 5em);
+}
+.main-header .top-nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header .top-nav>img{
+    max-width: 126px;
+    max-width: 32px;
+}
+.main-header 
+.top-nav 
+.nav-ul{
+    display: flex;
+}
+
+.main-header 
+.top-nav 
+.nav-leftSite{
+    display: flex;
+    border: 1px solid red;
+}
